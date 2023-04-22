@@ -9,7 +9,13 @@ This project aims to classify images of cats and dogs using machine learning tec
 * [Data Preprocessing](https://nbviewer.org/github/edwarjosep11/Cat-vs.-Dog-Prediction/blob/main/Data%20Preprocessing.ipynb): A Jupyter Notebook that contains the code for preprocessing the image data for the first model (simple CNN).
 * [First Model: Simple CNN](https://nbviewer.org/github/edwarjosep11/Cat-vs.-Dog-Prediction/blob/main/First%20Model.ipynb): A Jupyter Notebook that contains the code for building and training the first version of the model. **Accuracy: 66%.**
 * [Second Model: Tuned CNN](https://nbviewer.org/github/edwarjosep11/Cat-vs.-Dog-Prediction/blob/main/Second_model.ipynb): A Jupyter Notebook that contains the code for building and training the second version of the model, using Pipeline Preprocessing and Data Augmentation. **Accuracy: 93%**. 
-* [Third Model: Transfer Learning](https://nbviewer.org/github/edwarjosep11/Cat-vs.-Dog-Prediction/blob/main/cat-vs-dog-transfer-learning.ipynb): A Jupyter Notebook that includes building a model based on the head of VGG16. **Accuracy: 98%** 
+* [Third Model: Transfer Learning](https://nbviewer.org/github/edwarjosep11/Cat-vs.-Dog-Prediction/blob/main/cat-vs-dog-transfer-learning.ipynb): A Jupyter Notebook that includes building a model based on the head of VGG16. **Accuracy: 98%**.
+
+## Setup
+Run the following code to setup your environment:
+```
+pip install requirements.txt
+```
 
 
 ## Data Preprocessing
